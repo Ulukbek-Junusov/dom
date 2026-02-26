@@ -6,19 +6,19 @@ const users = [
         name: "Арген Таалайбеков",
         role: "Frontend Developer",
         city: "Манас",
-        avatar: "/dom/images/argen.png",
+        avatar: "dom/images/argen.png",
     },
     {
         name: "Алина Нурова",
         role: "UI/UX Designer",
         city: "Талас",
-        avatar: "/dom/images/alina.png",
+        avatar: "dom/images/alina.png",
     },
     {
         name: "Макс Тилеков",
         role: "AI data size",
         city: "Бишкек",
-        avatar: "/dom/images/maks.png",
+        avatar: "dom/images/maks.png",
     },
 ];
 
@@ -51,5 +51,6 @@ function createUserCard(user) {
 for (let user of users) {
     const cardEL = createUserCard(user);
     userEL.append(cardEL);
+
 
 }
