@@ -6,19 +6,19 @@ const users = [
         name: "Арген Таалайбеков",
         role: "Frontend Developer",
         city: "Манас",
-        avatar: "dom/images/argen.png",
+        avatar: "images/argen.png",
     },
     {
         name: "Алина Нурова",
         role: "UI/UX Designer",
         city: "Талас",
-        avatar: "dom/images/alina.png",
+        avatar: "images/alina.png",
     },
     {
         name: "Макс Тилеков",
         role: "AI data size",
         city: "Бишкек",
-        avatar: "dom/images/maks.png",
+        avatar: "images/maks.png",
     },
 ];
 
@@ -54,3 +54,4 @@ for (let user of users) {
 
 
 }
+
